@@ -95,7 +95,11 @@ while(i==2);
 let res =(mark>=90)?"O grade":(mark>=80)?"A grade":(mark>=70)?"B grade":(mark>=35)?"pass":"fail";
 console.log(res);*/
 //funtion
+<<<<<<< HEAD
 /*var add =(a,b)=>
+=======
+var add =(a,b)=>
+>>>>>>> 8470614c46ce62aa9f8594868b3042b8c0545df9
 {
     console.log(a+b);
 }
@@ -125,6 +129,7 @@ var{name,age,dept}=
 }
 console.log(name);
 console.log(age);
+<<<<<<< HEAD
 console.log(dept);*/
 
 
@@ -256,3 +261,6 @@ console.log(dept);*/
 </body>
 </html>
 
+=======
+console.log(dept);
+>>>>>>> 8470614c46ce62aa9f8594868b3042b8c0545df9
