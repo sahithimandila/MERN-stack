@@ -95,7 +95,7 @@ while(i==2);
 let res =(mark>=90)?"O grade":(mark>=80)?"A grade":(mark>=70)?"B grade":(mark>=35)?"pass":"fail";
 console.log(res);*/
 //funtion
-var add =(a,b)=>
+/*var add =(a,b)=>
 {
     console.log(a+b);
 }
@@ -125,4 +125,134 @@ var{name,age,dept}=
 }
 console.log(name);
 console.log(age);
-console.log(dept);
+console.log(dept);*/
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sahithi Reddy</title>
+  <style>
+    /* Reset some default styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f4f4f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #4a90e2;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin-bottom: 10px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap:0;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 15px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .about, .projects, .contact {
+      margin-bottom: 40px;
+    }
+
+    .projects .card {
+      background: white;
+      padding: 15px;
+      margin: 15px 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .projects .card h3 {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+    }
+
+    footer a {
+      color: #4a90e2;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Sahithi Reddy</h1>
+    <p>Welcome to my personal website</p>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm Sahithi Mandila, a passionate developer/designer. I love building creative web experiences and solving problems with code.</p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="card">
+      <h3>Smart Health Report Assistent</h3>
+      <p>Created a Website for Efficient hospital management</p>
+      <h3>App development</h3>
+      <p>I have done one internship App development project creating one App</p>
+    </div>
+    <div class="card">
+      <h3>Links</h3>
+      <a href="SMRS Report.com">SMRS report </a>
+
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="sahithireddy@example.com">sahithireddy@example.com</a></p>
+    <p>LinkedIn: <a href="#">linkedin.com/in/Sahithimandila</a></p>
+    <p>GitHub: <a href="#">github.com/Sahithi Mandila</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 My Portfolio | Built with ❤️ and CSS</p>
+  </footer>
+
+</body>
+</html>
+
